@@ -1,100 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>repo.me</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="repo-header">
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <img src="CydiaIcon.png" alt="Repository Icon" />
-          <h1>repo.me</h1>
-        </div>
-      </div>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z4 Tech Repository</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0f0f12; color: #ffffff; text-align: center; padding: 40px 20px; }
+        .container { max-width: 500px; margin: 0 auto; background: #1a1a24; padding: 30px; border-radius: 20px; box-shadow: 0 10px 3px rgba(0,0,0,0.5); }
+        .logo { width: 100px; height: 100px; border-radius: 50%; border: 3px solid #ff3b30; margin-bottom: 15px; }
+        h1 { font-size: 28px; margin-bottom: 5px; color: #ff3b30; font-weight: bold; }
+        p { color: #a0a0ab; font-size: 15px; margin-bottom: 25px; }
+        .btn { display: block; width: 100px; background: #34c759; color: white; padding: 14px; margin: 12px auto; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 16px; transition: 0.2s; }
+        .btn:hover { opacity: 0.9; transform: scale(1.02); }
+        .btn-sileo { background: #ff9500; }
+        .btn-zebra { background: #5856d6; }
+        .btn-tiktok { background: #000000; border: 1px solid #ff3b30; color: #ffffff; }
+    </style>
+</head>
+<body>
 
-    <div class="container mb-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title mb-3">repo.me</h5>
-          <p class="card-text mb-4">
-            a modern apt repository template built by the community.
-          </p>
-          <div class="d-flex flex-wrap gap-2">
-            <a class="btn btn-primary" href="sileo://source/https://REPLACEHERE"
-              >Add to Sileo</a
-            >
-            <a
-              class="btn btn-primary"
-              href="zbra://sources/add/https://REPLACEHERE"
-              >Add to Zebra</a
-            >
-            <a class="btn btn-primary" href="apt-repo://https://REPLACEHERE"
-              >Add to Saily</a
-            >
-            <a
-              class="btn btn-primary"
-              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://REPLACEHERE"
-              >Add to Cydia</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="container">
+    <!-- Yahan aapki DP show hogi -->
+    <img src="CydiaIcon.png" alt="Z4 Tech Logo" class="logo">
+    
+    <h1>Z4 Tech Repo</h1>
+    <p>🔥 All-in-One Useful Jailbreak Tweaks & Translations by Z4 Tech</p>
 
-    <div class="container">
-      <h2 class="section-title">Featured Packages</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-header">Old Package</div>
-            <div class="card-body">
-              <p class="card-text">
-                This is a sample package with minimal information. It also
-                simulates an old package that's incompatible only with iOS lower
-                than 7.0.
-              </p>
-              <a
-                class="btn btn-primary"
-                href="depictions/web/?p=com.example.oldsample"
-                >More info</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-header">New Package</div>
-            <div class="card-body">
-              <p class="card-text">
-                This is a sample package with lots of information.
-              </p>
-              <a
-                class="btn btn-primary"
-                href="depictions/web/?p=com.example.newsample"
-                >More info</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    <!-- 100% Working Clickable Buttons -->
+    <a class="btn btn-sileo" href="sileo://source/https://github.io">Add to Sileo</a>
+    <a class="btn btn-zebra" href="zbra://sources/add/https://github.io">Add to Zebra</a>
+    <a class="btn btn-tiktok" href="https://tiktok.com" target="_blank">🎵 Follow My TikTok</a>
+</div>
+
+</body>
 </html>
